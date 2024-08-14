@@ -1,0 +1,13 @@
+server.port: 9999
+spring.application.name: spring-boot-oauth2-jwt-project
+spring.output.ansi.enabled: ALWAYS
+
+access-token.private: classpath:private.key
+access-token.public: classpath:public.key
+
+refresh-token.private: classpath:private-refresh.key
+refresh-token.public: classpath:public-refresh.key
+
+spring.data.mongodb.uri: mongodb://localhost:27017/oauth2_db
+
+logging.level.org.springframework.security: DEBUG
